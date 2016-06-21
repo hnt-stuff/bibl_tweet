@@ -1,1 +1,1 @@
-[propane!](images/propane.gif)
+![propane](images/propane.gif)
