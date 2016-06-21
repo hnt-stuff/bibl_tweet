@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+main
+tweet
+set -e
+set -o pipefail
+NAME=$(basename $0)
+TWEET_DIR=$(readlink -m $(dirname $0))
 source temp/*shlib
 
 main
