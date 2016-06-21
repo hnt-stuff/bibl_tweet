@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-main
-tweet
 set -e
 set -o pipefail
 NAME=$(basename $0)
